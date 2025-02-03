@@ -11,16 +11,24 @@
   - **Azure Synapse Analytics**: Data warehousing and analytics
 
 ## Project Structure
-
+![Project_structure](project_structure.jpg)
 ## Setup Instructions
 1. Azure Account: Ensure you have an active Azure account.
 2. Azure Resources: Create necessary Azure resources - Data Lake Gen2, Data Factory, Databricks, and Synapse Analytics.
 3. Configuration: Update configuration files with your Azure credentials and project-specific details.
 4. Run Pipelines: Execute Data Factory pipelines for ETL, monitor Databricks jobs, and utilize Synapse Analytics for analytics.
 
+![Resources](resources.jpg)
+
 ## Dataset Used
 Orginal Data Source  - https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo
-Here is dataset used in this projects - 
+
+Here is dataset used in this projects - https://github.com/KWas866/tokyo-olympic-data-ETL/tree/master/data
 
 ## Data Model
+![Data_model](data_model.jpg)
 
+## Scripts for projects
+- [Transformations Scripts in Python]( tokyo_olympic_transformatiom.ipynb)
+- [SQL Scripts from Synapse Analytics](SQLScripts.sql)
+  - [Charts for SQL Scripts from Synapse Analytics](SQLCharts)
